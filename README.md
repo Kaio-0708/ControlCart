@@ -12,3 +12,7 @@ Check Balance: The system automatically checks whether there is sufficient balan
 List Purchases: At the end of the operations, the system displays a list of all purchases made, ordered by value.
 
 Card Limit: The user defines the credit card limit when starting the program, and the available balance is managed automatically.
+
+<br>
+
+![Captura de tela 2024-05-21 131032](https://github.com/Kaio-0708/ControlCart/assets/123708201/208c3006-f6ab-4709-929f-096fcb029fd4)
