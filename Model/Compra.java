@@ -1,3 +1,5 @@
+package Model;
+
 public class Compra implements Comparable<Compra>{
     private String descricao;
     private double valor;

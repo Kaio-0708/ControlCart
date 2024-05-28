@@ -1,3 +1,8 @@
+package Principal;
+
+import Model.CartaoDeCredito;
+import Model.Compra;
+
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -10,7 +15,8 @@ public class Principal {
 
         int sair = 1;
         while(sair != 0) {
-            System.out.println("Digite a descrição da compra:");
+            System.out.println("Digite a descrição da compra em uma palavra:");
+            leitura.nextLine();
             String descricao = leitura.next();
 
             System.out.println("Digite o valor da compra:");
@@ -25,7 +31,8 @@ public class Principal {
                 sair = leitura.nextInt();
             } else {
                 System.out.println("Saldo insuficiente!");
-                sair = 0;
+                System.out.println("Digite 0 para sair ou 1 para continuar");
+                sair = leitura.nextInt();
             }
         }
 
